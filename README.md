@@ -15,13 +15,13 @@ Installing:
 - copy it into tomcat workplace directory
 - Home page: http://localhost:8080/revolut/
 
-Home page has links to to HTML pages which are used for creating a new account and making transfer between accounts.  
+Home page has navigations to HTML pages which are used for creating a new account and making transfer.  
 
 src/main/java/test folder contains 2 test files: 
 - AccountServiceTest
 - TransferServiceTest
 
-These files are run from the Eclipse as a jUnit Test
+Test programs are run on Eclipse jUnit Test
 
 ## API Manual
 <table>
