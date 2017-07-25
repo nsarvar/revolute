@@ -24,6 +24,11 @@ public class AccountService {
 	 * initializing default data
 	 */
 	public AccountService(){
+		if(accounts.size()==0){
+			accounts.put(1001L, new Account(1001, "John", 1000.00));
+			accounts.put(1002L, new Account(1002, "Tom", 1500.00));
+			accounts.put(1003L, new Account(1003, "Alex", 2500.00));
+		}
 	}
 	
 	/**

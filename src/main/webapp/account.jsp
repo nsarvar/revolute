@@ -15,7 +15,7 @@
     <a href="webapi/transfers">Transfer History</a></p>     
     <hr>
 
-<form id='form' action='http://localhost:8080/revolut/webapi/accounts' method='POST'>
+<form id='form' action='revolute/webapi/accounts' method='POST'>
 <table>
 	<tr><td>Name: </td><td><input type='text' name='name'></td></tr>
 	<tr><td>Balance: </td><td><input type='text' name='balance'></td></tr>
