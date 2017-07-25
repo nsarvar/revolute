@@ -1,4 +1,4 @@
-# revolute
+# Money Transfer RESTful API
 Author: Sarvar Nishonboyev
 
 Information:
@@ -14,7 +14,7 @@ Installing:
 - copy it into tomcat workplace directory
 - Home page: http://localhost:8080/revolut/
 
-There are HTML forms to create an account and make a transfer between accounts. You can find the link to the form-pages in home page.
+There are HTML pages to create an account and make a money transfer between accounts. You can find the link to pages in home page.
 
 ## API Manual
 <table>
