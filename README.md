@@ -1,6 +1,20 @@
 # revolute
+Author: Sarvar Nishonboyev
 
+Information:
 
+Used tools, libraries & frameworks: 
+- Tomcat 8.0
+- Java, JSP 
+- Jersey 2.x
+- maven
+
+Installing: 
+- Please, find `revolute.war` file in the target folder
+- copy it into tomcat workplace directory
+- Home page: http://localhost:8080/revolut/
+
+## API Manual
 <table>
     	<thead>
     	<tr>
