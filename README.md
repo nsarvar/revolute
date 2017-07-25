@@ -13,27 +13,27 @@
         </tr>
     	<tr>
     		<td>List of all accounts</td>
-    		<td>http://localhost:8080/revolut/webapi/accounts</td>
+    		<td> http://localhost:8080/revolut/webapi/accounts </td>
     		<td>GET</td>
     	</tr>
     	<tr>
     		<td>Find particular account</td>
-    		<td>http://localhost:8080/revolut/webapi/accounts/{accountID}</td>
+    		<td> http://localhost:8080/revolut/webapi/accounts/{accountID} </td>
     		<td>GET</td>
     	</tr>
     	<tr>
     		<td>Adding new account</td>
-    		<td>http://localhost:8080/revolut/webapi/accounts</td>
+    		<td> http://localhost:8080/revolut/webapi/accounts </td>
     		<td>POST</td>
     	</tr>
     	<tr>
     		<td>Updating an account</td>
-    		<td>http://localhost:8080/revolut/webapi/accounts/{accountID}</td>
+    		<td> http://localhost:8080/revolut/webapi/accounts/{accountID} </td>
     		<td>PUT</td>
     	</tr>
     	<tr>
     		<td>Deleting an account</td>
-    		<td>http://localhost:8080/revolut/webapi/accounts/{accountID}</td>
+    		<td> http://localhost:8080/revolut/webapi/accounts/{accountID} </td>
     		<td>DELETE</td>
     	</tr>
     	<tr>
@@ -41,17 +41,17 @@
     	</tr>
     	<tr>
     		<td>List of transfer history</td>
-    		<td>http://localhost:8080/revolut/webapi/transfers</td>
+    		<td> http://localhost:8080/revolut/webapi/transfers </td>
     		<td>GET</td>
     	</tr>
     	<tr>
     		<td>Account transfer history</td>
-    		<td>http://localhost:8080/revolut/webapi/transfers/{accountID}</td>
+    		<td> http://localhost:8080/revolut/webapi/transfers/{accountID} </td>
     		<td>GET</td>
     	</tr>
     	<tr>
     		<td>Make a new transfer</td>
-    		<td>http://localhost:8080/revolut/webapi/transfers/make</td>
+    		<td> http://localhost:8080/revolut/webapi/transfers/make </td>
     		<td>POST</td>
     	</tr>
     	</thead>
