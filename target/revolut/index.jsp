@@ -2,7 +2,6 @@
 <body>
     <h2>Money transfer Application!</h2>
     <p>Author: Sarvar Nishonboyev</p>
-    <p><a href="webapi/myresource">Initializing data</a> | 
     <a href="webapi/accounts">Accounts</a> |
     <a href="webapi/transfers">Transfer History</a></p>
     
@@ -78,6 +77,5 @@
     	</tr>
     	</thead>
     </table>
-  
 </body>
 </html>

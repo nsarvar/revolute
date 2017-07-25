@@ -9,9 +9,8 @@ import org.junit.Test;
 
 public class AccountServiceTest {
 
-	
 	/**
-	 * Acco
+	 * Account exists
 	 */
 	@Test
 	public void testGetById(){
