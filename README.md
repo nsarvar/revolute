@@ -8,7 +8,7 @@
 | Adding new account	| http://localhost:8080/revolut/webapi/accounts	| POST |
 | Updating an account	| http://localhost:8080/revolut/webapi/accounts/{accountID}	| PUT |
 | Deleting an account	| http://localhost:8080/revolut/webapi/accounts/{accountID}	| DELETE |
-| Transfers |||
+| Transfers <td colspan=3>|
 | List of transfer history	| http://localhost:8080/revolut/webapi/transfers | GET |
 | Account transfer history	| http://localhost:8080/revolut/webapi/transfers/{accountID}	| GET |
 | Make a new transfer	| http://localhost:8080/revolut/webapi/transfers/make	| POST |
