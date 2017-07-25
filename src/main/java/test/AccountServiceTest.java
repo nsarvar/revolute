@@ -9,21 +9,28 @@ import org.junit.Test;
 
 public class AccountServiceTest {
 
+	
+	/**
+	 * Acco
+	 */
 	@Test
 	public void testGetById(){
 		expect().
 		body("accountID", equalTo(1001)).
 		body("name", equalTo("John")).
 		when().
-		get("/revolute/webapi/accounts/1001");
+		get("/revolut/webapi/accounts/1001");
 	}
 	
+	/**
+	 * account doesn't exists
+	 */
 	@Test
 	public void testAccountNotFound() {
 		expect().
 			body("code", equalTo(404)).
 			body("message", containsString("not found")).
 		when().
-			get("/revolute/webapi/accounts/111");
+			get("/revolut/webapi/accounts/111");
 	}
 }

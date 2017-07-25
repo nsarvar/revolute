@@ -10,7 +10,7 @@
 <h2>Create an accaunt</h2>
     
     <p>
-    <a href="/revolute">Home Page</a> |
+    <a href="/revolut">Home Page</a> |
     <a href="webapi/accounts">Accounts</a> |
     <a href="webapi/transfers">Transfer History</a></p>     
     <hr>
@@ -43,7 +43,7 @@ function ConvertFormToJSON(form){
     		var data = JSON.stringify(ConvertFormToJSON($("#form")));
         	 // send ajax
             $.ajax({
-                url: 'http://localhost:8080/revolute/webapi/transfers/make', // url where to submit the request
+                url: 'http://localhost:8080/revolut/webapi/transfers/make', // url where to submit the request
                 type : "POST", // method type 
                 dataType : 'json', // data type
                 data : data, 
