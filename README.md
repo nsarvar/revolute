@@ -14,6 +14,8 @@ Installing:
 - copy it into tomcat workplace directory
 - Home page: http://localhost:8080/revolut/
 
+There are HTML forms to create an account and make a transfer between accounts. You can find the link to the form-pages in home page.
+
 ## API Manual
 <table>
     	<thead>
